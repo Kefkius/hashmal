@@ -31,6 +31,13 @@ See the file `doc/usage.adoc` for basic instructions. See the [Hashmal wiki on G
 
 The file `doc/plugins.adoc` has some information on the plugins system that Hashmal uses.
 
+##Installation
+- First you need to make sure you have the `python-bitcoinlib` installed. 
+- `sudo pip install python-bitcoinlib`
+- the second requirement is the `pyparsing` python package. 
+- `sudo pip install pyparsing`
+- finally you can run run hashmal
+- `./hashmal`
 
 ## License
 
