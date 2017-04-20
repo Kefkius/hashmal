@@ -23,6 +23,30 @@ Hashmal is intended for cryptocurrency developers and power users.
 - When editing scripts, put something in double quotation marks to ensure it's interpreted as text rather than hex data.
 - You can quickly evaluate the script you're working on via *Script > Evaluate* in the menubar.
 
+## Libraries
+To run the application you must use / have installed:
+ - Python 2.7
+ - PyQt4
+
+### PyQt4
+You can install PyQt4 if you use Anaconda with the following command
+```
+conda install pyqt=4
+```
+If you use Debian / Ubuntu, you can use the following command
+```
+sudo apt install pyqt4-dev-tools
+```
+Installation instructions for other platforms:
+[https://www.riverbankcomputing.com/software/pyqt/download](https://www.riverbankcomputing.com/software/pyqt/download)
+
+### Installation
+After that, use `setup.py` to build / install the application
+```
+python setup.py install
+```
+This will install the external module requirements listed in `requirements.txt` too
+
 ## Documentation
 
 See the file `doc/usage.adoc` for basic instructions. See the [Hashmal wiki on Github](https://github.com/mazaclub/hashmal/wiki) for details.

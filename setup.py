@@ -1,5 +1,5 @@
 from setuptools import setup
-from hashmal_lib.gui_utils import hashmal_entry_points
+from hashmal_lib.entry_points import hashmal_entry_points
 
 with open('requirements.txt') as f:
     requirements = f.readlines()
