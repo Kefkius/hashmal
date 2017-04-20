@@ -3,3 +3,6 @@
 *.coinscript
 *.conf
 Hashmal*.egg-info
+# Built package
+build/
+dist/
